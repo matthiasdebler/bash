@@ -3,7 +3,7 @@
 
 user@user:~$ nano myscript
 
-FILE:
+####FILE:#############################################################
 
 
 #!/bin/sh
@@ -15,12 +15,12 @@ apt install -y software-properties-common
 .
 .
 clear
-
+######################################################################
 user@user:~$ chmod 755 myscript.sh
 
 # start the script
 
-user@user:~$ ./zm-install
+user@user:~$ ./myscript.sh
 
 
 
