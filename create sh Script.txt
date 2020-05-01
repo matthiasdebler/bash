@@ -9,10 +9,7 @@ user@user:~$ nano myscript
 #!/bin/sh
 clear
 .
-.
-.
-apt install -y software-properties-common
-.
+apt install .
 .
 clear
 ######################################################################
