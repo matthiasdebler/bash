@@ -1,0 +1,29 @@
+# create myscript.sh
+
+
+user@user:~$ nano myscript
+
+FILE:
+
+
+#!/bin/sh
+clear
+.
+.
+.
+apt install -y software-properties-common
+.
+.
+clear
+
+user@user:~$ chmod 755 myscript.sh
+
+# start the script
+
+user@user:~$ ./zm-install
+
+
+
+
+
+
